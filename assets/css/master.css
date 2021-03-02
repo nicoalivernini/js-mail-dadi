@@ -3,3 +3,25 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+.container {
+  text-align: center;
+  margin: 10px;
+}
+
+.mail {
+
+}
+
+h1 {
+  padding: 10px 0;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  color: #383838;
+}
+
+p {
+  font-family: sans-serif;
+  padding: 5px 0;
+  text-transform: uppercase;
+}
