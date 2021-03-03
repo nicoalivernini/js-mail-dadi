@@ -34,11 +34,11 @@ if (verificaMail == true) {
 
 // Generare sia per al persona sia per il computer due numeri casuali da 1 a 6
 
-var numeroUmano = Math.floor(Math.random() * (6 - 1) + 1);
+var numeroUmano = Math.floor(Math.random() * (6 - 1 + 1) + 1);
 
 document.getElementById('numero-umano').innerHTML = "L'umano segna:" + " " + numeroUmano
 
-var numeroComputer = Math.floor(Math.random() * (6 - 1) + 1);
+var numeroComputer = Math.floor(Math.random() * (6 - 1 + 1) + 1);
 
 document.getElementById('numero-computer').innerHTML = "Il computer segna:" + " " + numeroComputer
 
